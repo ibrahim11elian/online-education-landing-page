@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [click here](https://ibrahim11elian.github.io/online-education-landing-page/)
+- Live Site URL: [click here](https://62e003e9aec96c0c2ab0cc4c--fastidious-marzipan-3f8481.netlify.app/)
 
 ## My process
 
