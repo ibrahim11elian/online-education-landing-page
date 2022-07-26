@@ -11,10 +11,17 @@ menuButton.addEventListener('click', () => {
 
 let scrollBtn = document.querySelector('.scroll-to-top');
 
+let footer = document.querySelector('footer');
+
 window.onscroll = () => {
     menuButton.classList.remove('fa-times');
     navigations.classList.remove('active');
     if (window.scrollY >= 500) {
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+            scrollBtn.style.bottom = '70px';
+        } else {
+            scrollBtn.style.bottom = '20px';
+        }
         scrollBtn.style.display = 'block';
     } else {
         scrollBtn.style.display = 'none';
